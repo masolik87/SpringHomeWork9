@@ -1,9 +1,11 @@
 spring:
-  jpa:
+  application:
+    name: Home
+    jpa:
     hibernate:
-      ddl:
-        auto:
-          none
+    ddl:
+    auto:
+      none
     generate-ddl:
       false
 server:
